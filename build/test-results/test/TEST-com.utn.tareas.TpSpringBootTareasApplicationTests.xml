@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.utn.tareas.TpSpringBootTareasApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-10T02:22:33.148Z" hostname="LENOVO-TPAD" time="2.025">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.utn.tareas.TpSpringBootTareasApplicationTests" time="2.025"/>
+  <system-out><![CDATA[23:22:29.509 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.utn.tareas.TpSpringBootTareasApplicationTests]: TpSpringBootTareasApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:22:29.751 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.utn.tareas.TpSpringBootTareasApplication for test class com.utn.tareas.TpSpringBootTareasApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2025-11-09T23:22:30.548-03:00  INFO 10464 --- [Tp-Spring-Boot-Tareas] [    Test worker] c.u.t.TpSpringBootTareasApplicationTests : Starting TpSpringBootTareasApplicationTests using Java 21.0.8 with PID 10464 (started by LENOVO in C:\Users\LENOVO\Desktop\Materias\Desarrollo SW\Teoria\Spring Boot\Projectos Spring\tareas\tareas)
+2025-11-09T23:22:30.551-03:00  INFO 10464 --- [Tp-Spring-Boot-Tareas] [    Test worker] c.u.t.TpSpringBootTareasApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-09T23:22:33.113-03:00  INFO 10464 --- [Tp-Spring-Boot-Tareas] [    Test worker] c.u.t.TpSpringBootTareasApplicationTests : Started TpSpringBootTareasApplicationTests in 3.047 seconds (process running for 5.598)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.8\f09415827a71be7ed621c7bd02550678f28bc81c\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
